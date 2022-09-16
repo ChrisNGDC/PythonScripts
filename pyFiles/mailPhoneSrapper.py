@@ -24,9 +24,9 @@ mailRegex = re.compile("""
                        [a-zA-Z0-9_.+]+  # domain
                        """, re.VERBOSE)
 
-# Get the text from clipboard
+# Get the text from file (testText.txt)
 
-text = pyperclip.paste()
+text = ""
 
 # Extract the mail and phone from the text
 
@@ -43,8 +43,6 @@ for i in moMail:
 phonesText = "\n".join(allPhoneNumbers)
 mailsText = "\n".join(allMails)
 
-# Copy the extracted mails and phones to the clipboard
+# Copy the extracted mails and phones to a new file phonesAndMails.txt
 
 result = "Phone numbers:\n{0}\n\nMails:\n{1}".format(phonesText,mailsText)
-
-pyperclip.copy(result)
