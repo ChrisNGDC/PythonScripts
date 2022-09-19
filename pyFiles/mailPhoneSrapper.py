@@ -1,6 +1,6 @@
 #! python3
 
-import re, pyperclip
+import re, pyperclip, os
 
 # Create regex for phone numbers
 
@@ -26,7 +26,10 @@ mailRegex = re.compile("""
 
 # Get the text from file (testText.txt)
 
-text = ""
+textsPath = "./pyFiles/txtFiles"
+f = open(os.path.join(textsPath, "testText.txt"), "r")
+text = f.read()
+f.close()
 
 # Extract the mail and phone from the text
 
@@ -46,3 +49,5 @@ mailsText = "\n".join(allMails)
 # Copy the extracted mails and phones to a new file phonesAndMails.txt
 
 result = "Phone numbers:\n{0}\n\nMails:\n{1}".format(phonesText,mailsText)
+f = open(os.path.join(textsPath, "testTextFilter.txt"), "wt")
+f.write(result)

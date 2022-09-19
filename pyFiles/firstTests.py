@@ -2,6 +2,7 @@
 
 # Importing date class from datetime module
 import datetime
+from genericpath import isfile
 from multiprocessing.connection import wait
 from posixpath import split
 today = datetime.datetime.now() # Gets today date
@@ -70,3 +71,25 @@ print(variables)
 #     count[c] += 1
 
 # pprint.pprint(count)
+
+# Files y folders manipulation
+import os, shutil
+
+totalSize = 0
+folderPath = "C:\Windows\Cursors"
+for fileName in os.listdir(folderPath):
+    filePath = os.path.join(folderPath, fileName)
+    if os.path.isfile(filePath):
+        totalSize += os.path.getsize(filePath)
+print(totalSize)
+
+if not os.path.exists(".//pyFiles//images"):
+    print("No esiste, creando")
+    os.makedirs(".//pyFiles//images") # Creates folders necesaries
+    f = open(".//pyFiles//images//prueba.txt", "xt") # Creates the file
+    shutil.copy(".//pyFiles//images//prueba.txt",".//pyFiles//images//pruebaBackup.txt") # Copy the file
+    shutil.rmtree(".//pyFiles//imagesBackup")
+else:
+    print("Existe, borrando")
+    shutil.copytree(".//pyFiles//images",".//pyFiles//imagesBackup") # Copy the entire folder
+    shutil.rmtree(".//pyFiles//images") # Removes folders
