@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 14, in <module>
+    boxPrint("**",5,"**",5)
+  File "C:\Users\Lenovo\Desktop\Programing\PythonScripts\pyFiles\box.py", line 5, in boxPrint
+    raise Exception("Symbols need to be of length 1.")
+Exception: Symbols need to be of length 1.

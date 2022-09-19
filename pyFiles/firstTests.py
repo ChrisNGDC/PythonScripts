@@ -73,7 +73,7 @@ print(variables)
 # pprint.pprint(count)
 
 # Files y folders manipulation
-import os, shutil
+import os, shutil, send2trash
 
 totalSize = 0
 folderPath = "C:\Windows\Cursors"
@@ -88,8 +88,8 @@ if not os.path.exists(".//pyFiles//images"):
     os.makedirs(".//pyFiles//images") # Creates folders necesaries
     f = open(".//pyFiles//images//prueba.txt", "xt") # Creates the file
     shutil.copy(".//pyFiles//images//prueba.txt",".//pyFiles//images//pruebaBackup.txt") # Copy the file
-    shutil.rmtree(".//pyFiles//imagesBackup")
+    shutil.rmtree(".//pyFiles//imagesBackup") # Removes folders
 else:
     print("Existe, borrando")
     shutil.copytree(".//pyFiles//images",".//pyFiles//imagesBackup") # Copy the entire folder
-    shutil.rmtree(".//pyFiles//images") # Removes folders
+    send2trash.send2trash(".//pyFiles//images") # Delete files to trash bin

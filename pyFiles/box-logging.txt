@@ -1,0 +1,13 @@
+2022-09-19 14:49:15,137 - DEBUG - Starting debugging
+2022-09-19 14:49:15,137 - DEBUG - Number: 5
+2022-09-19 14:49:15,137 - DEBUG - Itteration: 1
+2022-09-19 14:49:15,137 - DEBUG - Total: 1
+2022-09-19 14:49:15,138 - DEBUG - Itteration: 2
+2022-09-19 14:49:15,138 - DEBUG - Total: 2
+2022-09-19 14:49:15,138 - DEBUG - Itteration: 3
+2022-09-19 14:49:15,138 - DEBUG - Total: 6
+2022-09-19 14:49:15,138 - DEBUG - Itteration: 4
+2022-09-19 14:49:15,138 - DEBUG - Total: 24
+2022-09-19 14:49:15,138 - DEBUG - Itteration: 5
+2022-09-19 14:49:15,138 - DEBUG - Total: 120
+2022-09-19 14:49:15,138 - DEBUG - Ending debugging
